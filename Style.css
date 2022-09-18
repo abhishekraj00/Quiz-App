@@ -2,82 +2,124 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
+    color: #191A19;
 }
 
 body{
-    height: 100vh;
+    height: 90vh;
+    width: 70wh;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
 #main-container{
-   margin-top: 50px;
-   width: 400px;
-   height: 500px;
+   margin-top: 10%;
+   width: 80%;
+   height: 95%;
    box-shadow: 4px 4px 20px;
-   border-radius: 12px;
+   border-radius: 20px;
    display: flex;
    flex-direction: column;
+   justify-content: center;
    align-items: center;
-   background: rgb(255, 232, 232);
+   background: #D8E9A8;
 
 }
 
 #question-box{
-    margin: 20px;
-    width: 350px;
-    height: 300px;
+    margin: 5%;
+    margin-bottom: 0px;
+    width:  90%;
+    height: 60%;
     border-radius: 10px;
-    font-size: x-large;
-    background: rgb(204, 244, 145);
+    font-size: 20px;
+    font-weight: 600;
     padding: 10px;
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content:center;
+    align-items: flex-start;
     flex-direction: column;
+}
+#question-box div{
+    margin-top: 20px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
     
 }
-
-#next #submit{
-    width: 350px;
-    height: 50px;
-    display: flex;
+#question-box div button{
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+    border: none;
+    background: #95dd87;
+    border-radius: 10px;
+    
 }
+#question-box div button:hover{
+    background: #1E5128;
+    color: #D8E9A8;
+}
+#question-box div img{
+    padding-top: 30px;
+    height: 60%;
+    width: 100%;
+}
+
+.buttons-sec{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
 #next-button{
-    width: 170px;
-    height: 50px;
-    background-color: aqua;
+    width: 80%;
+    height: 25%;
+    background: #1E5128;
+    color:  #D8E9A8;
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
 }
 #next-button:hover{
-    background-color: rgb(244, 5, 252);
+    background: #D8E9A8;
+    color: #1E5128;
 }
 #submit-button{
-    margin: 10px;
-    width: 350px;
-    height: 50px;
-    background-color: rgb(255, 247, 0);
-    border: 2px solid black;
+    width: 80%;
+    height: 25%;
     border-radius: 10px;
     text-align: center;
+    background: #1E5128;
+    color: #D8E9A8;
+    
 }
 #submit-button:hover{
-    background-color: rgb(0, 255, 13);
+    background: #D8E9A8;
+    color: #1E5128;
 }
 
 button {
-    width: 350px;
-    height: 40px;
-    margin: 5px;
-    font-size: x-large;
-    text-align: left;
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+    font-size: 30px;
     padding-left: 5px;
     cursor: pointer;
+
 }
 
-button:active{
-    background-color: rgb(159, 255, 127);
-}
+
+
